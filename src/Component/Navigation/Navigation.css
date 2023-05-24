@@ -1,0 +1,50 @@
+.nav{
+    width: 90%;
+    height: 50px;
+    margin:  0 auto 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image{
+    width: 100px;
+    height: 30px;
+    padding: 10px;
+}
+.btn{
+    background-color:#5D5FEF;
+    width: 100px;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+.btn:active{
+    transform: translateY(2px);
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    color: #5D5FEF;
+    gap: 15px;
+}
+li{
+    list-style: none;
+    font-size: 20px;
+}
+
+.how{
+
+    border-right:#5D5FEF solid 1px;
+    padding-right: 5px;
+}
+
+
+@media screen and (max-width: 480px) {
+.nav {
+    flex-direction: column;
+    height: 100px;
+}
+}
